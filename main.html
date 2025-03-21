@@ -981,7 +981,7 @@ a {
                     <a class="nav-link" href="#">Book</a>
                     <a class="nav-link" href="#">Reviews</a>
                     <a class="nav-link" href="#">Contact</a>
-                    <a class="nav-link" href="./Adminpage.html">Admin Login</a>
+                    <a class="nav-link" href="#">Admin Login</a>
                     <a class="nav-link" href="#">
                         <div class="userlogo"><i class="fa-regular fa-circle-user"></i> <span
                                 class="log-user">Guest</span></div>
@@ -1085,7 +1085,7 @@ a {
 
         <div class="gal-images">
             <img src="./images/machupichu.jpg" alt="">
-            <img src="./images/istanbul.avif" alt="">
+            <img src="./images/istanbul.jpg" alt="">
             <img src="./images/christ.webp" alt="">
             <img src="./images/Colosseum.webp" alt="">
             <img src="./images/austraila.webp" alt="">
@@ -1254,13 +1254,13 @@ a {
             <p>Privacy Policy</p>
         </div>
     </footer>
-</body>
+
+
 
 
 
 
 <script>
-
     var data = window.localStorage.getItem("userinfo")
     var user = JSON.parse(data)
     if (data) {
@@ -1377,6 +1377,7 @@ a {
 
         var btn = document.createElement("button")
         btn.innerText = "Book Now"
+        
         packageCardBody.appendChild(btn)
 
         btn.addEventListener("click", () => {
@@ -1439,5 +1440,5 @@ a {
         e.target[3].value = ""
     })
 </script>
-
+</body>
 </html>
